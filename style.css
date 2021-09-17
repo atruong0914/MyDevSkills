@@ -1,0 +1,80 @@
+/* fixed size (always put this in) */
+* {
+    box-sizing: border-box;
+    margin:0%;
+}
+body {
+    font-family: Helvetica;
+    text-align:center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100vw;
+    border: 1px solid black;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgb(49, 247, 154);
+    width: 400px;
+    height: 300px;
+    border-radius: 5%;
+    background-image: linear-gradient(to bottom, #6cc864, #84ce67, #9ad46c, #afd973, #c2df7a, #cbe37b, #d4e87c, #deec7d, #e2f076, #e5f46f, #e9f767, #edfb5f);
+}
+
+input, button {
+    border: 3px solid #29deeb;
+    height: 50px;
+    border-radius: 5%;
+}
+
+input {
+    width: 300px;
+}
+
+button {
+    color: #f85a5a;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.list-skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+    margin: 20px;
+}
+
+.x {
+    color: black;
+    background-color: rgb(247, 96, 96);
+    border: 1px solid black;
+    padding: 5px;
+
+}
+
+p {
+    display: inline;
+    font-size: 25px;
+
+}
+
+ul {
+    margin-right: 30px;
+}
